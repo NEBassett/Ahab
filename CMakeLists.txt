@@ -28,10 +28,9 @@ target_compile_definitions(lbm PRIVATE "GLFW_INCLUDE_NONE")
 target_include_directories(lbm PRIVATE "${GLEW_INCLUDE_DIR}" "${OPENGL_INCLUDE_DIRS}")
 target_link_libraries(lbm "${GLEW_LIBRARIES}" "${OPENGL_LIBRARIES}")
 
-set(GLM_DIR "${PROJECT_SOURCE_DIR}/../glm")
+set(GLM_DIR "${PROJECT_SOURCE_DIR}/glm")
 target_include_directories(lbm PRIVATE "${GLM_DIR}")
 target_include_directories(lbm PRIVATE "${Boost_INCLUDE_DIR}")
-target_include_directories(lbm PRIVATE "${PROJECT_SOURCE_DIR}/../shared/include")
 
 link_directories(${Boost_LIBRARY_DIR})
 target_link_libraries(lbm ${Boost_LIBRARIES})
