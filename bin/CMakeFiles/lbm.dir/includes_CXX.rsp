@@ -1,0 +1,1 @@
+-IC:/GLEW/glew-2.0.0/include -IC:/OpenGLProjects/Openglprojects/lbm -IC:/OpenGLProjects/Openglprojects/lbm/glfw/include -IC:/OpenGLProjects/Openglprojects/lbm/../glm -IC:/Boost/include/boost-1_67 -IC:/OpenGLProjects/Openglprojects/lbm/../shared/include 
