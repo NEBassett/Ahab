@@ -18,9 +18,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -45,368 +42,368 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\OpenGLProjects\fftwater
+CMAKE_SOURCE_DIR = C:\Ahab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\OpenGLProjects\fftwater\bin
+CMAKE_BINARY_DIR = C:\Ahab
 
 # Include any dependencies generated for this target.
-include C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/depend.make
+include glfw/src/CMakeFiles/glfw.dir/depend.make
 
 # Include the progress variables for this target.
-include C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/progress.make
+include glfw/src/CMakeFiles/glfw.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
+include glfw/src/CMakeFiles/glfw.dir/flags.make
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C:/OpenGLProjects/glfw/src/context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\context.c.obj   -c C:\OpenGLProjects\glfw\src\context.c
+glfw/src/CMakeFiles/glfw.dir/context.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/context.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/context.c.obj: glfw/src/context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\context.c.obj   -c C:\Ahab\glfw\src\context.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj
+glfw/src/CMakeFiles/glfw.dir/context.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/context.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C:/OpenGLProjects/glfw/src/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\init.c.obj   -c C:\OpenGLProjects\glfw\src\init.c
+glfw/src/CMakeFiles/glfw.dir/init.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/init.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/init.c.obj: glfw/src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\init.c.obj   -c C:\Ahab\glfw\src\init.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj
+glfw/src/CMakeFiles/glfw.dir/init.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/init.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C:/OpenGLProjects/glfw/src/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\input.c.obj   -c C:\OpenGLProjects\glfw\src\input.c
+glfw/src/CMakeFiles/glfw.dir/input.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/input.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/input.c.obj: glfw/src/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\input.c.obj   -c C:\Ahab\glfw\src\input.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj
+glfw/src/CMakeFiles/glfw.dir/input.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/input.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C:/OpenGLProjects/glfw/src/monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\monitor.c.obj   -c C:\OpenGLProjects\glfw\src\monitor.c
+glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: glfw/src/monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\monitor.c.obj   -c C:\Ahab\glfw\src\monitor.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
+glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C:/OpenGLProjects/glfw/src/vulkan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\vulkan.c.obj   -c C:\OpenGLProjects\glfw\src\vulkan.c
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: glfw/src/vulkan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\vulkan.c.obj   -c C:\Ahab\glfw\src\vulkan.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/vulkan.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\vulkan.c > CMakeFiles\glfw.dir\vulkan.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\vulkan.c > CMakeFiles\glfw.dir\vulkan.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/vulkan.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\vulkan.c -o CMakeFiles\glfw.dir\vulkan.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\vulkan.c -o CMakeFiles\glfw.dir\vulkan.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
+glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C:/OpenGLProjects/glfw/src/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\window.c.obj   -c C:\OpenGLProjects\glfw\src\window.c
+glfw/src/CMakeFiles/glfw.dir/window.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/window.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/window.c.obj: glfw/src/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\window.c.obj   -c C:\Ahab\glfw\src\window.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj
+glfw/src/CMakeFiles/glfw.dir/window.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/window.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C:/OpenGLProjects/glfw/src/win32_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_init.c.obj   -c C:\OpenGLProjects\glfw\src\win32_init.c
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: glfw/src/win32_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_init.c.obj   -c C:\Ahab\glfw\src\win32_init.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_init.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_init.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C:/OpenGLProjects/glfw/src/win32_joystick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_joystick.c.obj   -c C:\OpenGLProjects\glfw\src\win32_joystick.c
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: glfw/src/win32_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_joystick.c.obj   -c C:\Ahab\glfw\src\win32_joystick.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_joystick.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\win32_joystick.c > CMakeFiles\glfw.dir\win32_joystick.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\win32_joystick.c > CMakeFiles\glfw.dir\win32_joystick.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_joystick.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\win32_joystick.c -o CMakeFiles\glfw.dir\win32_joystick.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\win32_joystick.c -o CMakeFiles\glfw.dir\win32_joystick.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
+glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C:/OpenGLProjects/glfw/src/win32_monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_monitor.c.obj   -c C:\OpenGLProjects\glfw\src\win32_monitor.c
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: glfw/src/win32_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_monitor.c.obj   -c C:\Ahab\glfw\src\win32_monitor.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_monitor.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_monitor.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C:/OpenGLProjects/glfw/src/win32_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_time.c.obj   -c C:\OpenGLProjects\glfw\src\win32_time.c
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: glfw/src/win32_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_time.c.obj   -c C:\Ahab\glfw\src\win32_time.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_time.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_time.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: C:/OpenGLProjects/glfw/src/win32_tls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_tls.c.obj   -c C:\OpenGLProjects\glfw\src\win32_tls.c
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: glfw/src/win32_tls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_tls.c.obj   -c C:\Ahab\glfw\src\win32_tls.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_tls.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\win32_tls.c > CMakeFiles\glfw.dir\win32_tls.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\win32_tls.c > CMakeFiles\glfw.dir\win32_tls.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_tls.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\win32_tls.c -o CMakeFiles\glfw.dir\win32_tls.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\win32_tls.c -o CMakeFiles\glfw.dir\win32_tls.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C:/OpenGLProjects/glfw/src/win32_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_window.c.obj   -c C:\OpenGLProjects\glfw\src\win32_window.c
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: glfw/src/win32_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_window.c.obj   -c C:\Ahab\glfw\src\win32_window.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_window.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_window.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C:/OpenGLProjects/glfw/src/wgl_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\wgl_context.c.obj   -c C:\OpenGLProjects\glfw\src\wgl_context.c
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: glfw/src/wgl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\wgl_context.c.obj   -c C:\Ahab\glfw\src\wgl_context.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wgl_context.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wgl_context.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
 
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/flags.make
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C:/OpenGLProjects/glfw/src/egl_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\egl_context.c.obj   -c C:\OpenGLProjects\glfw\src\egl_context.c
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: glfw/src/egl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj"
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\egl_context.c.obj   -c C:\Ahab\glfw\src\egl_context.c
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/egl_context.c.i"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\OpenGLProjects\glfw\src\egl_context.c > CMakeFiles\glfw.dir\egl_context.c.i
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Ahab\glfw\src\egl_context.c > CMakeFiles\glfw.dir\egl_context.c.i
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/egl_context.c.s"
-	cd /d C:\OpenGLProjects\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\OpenGLProjects\glfw\src\egl_context.c -o CMakeFiles\glfw.dir\egl_context.c.s
+	cd /d C:\Ahab\glfw\src && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Ahab\glfw\src\egl_context.c -o CMakeFiles\glfw.dir\egl_context.c.s
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires:
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires:
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires
-	$(MAKE) -f C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\build.make C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides.build
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides: glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires
+	$(MAKE) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides.build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides.build: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
+glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.provides.build: glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
 
 
 # Object files for target glfw
@@ -429,53 +426,53 @@ glfw_OBJECTS = \
 # External object files for target glfw
 glfw_EXTERNAL_OBJECTS =
 
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/build.make
-C:/OpenGLProjects/glfw/src/libglfw3.a: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\OpenGLProjects\fftwater\bin\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C static library libglfw3.a"
-	cd /d C:\OpenGLProjects\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
-	cd /d C:\OpenGLProjects\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/context.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/init.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/input.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/window.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/build.make
+glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Ahab\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C static library libglfw3.a"
+	cd /d C:\Ahab\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
+	cd /d C:\Ahab\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/build: C:/OpenGLProjects/glfw/src/libglfw3.a
+glfw/src/CMakeFiles/glfw.dir/build: glfw/src/libglfw3.a
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/build
+.PHONY : glfw/src/CMakeFiles/glfw.dir/build
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires: C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/context.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/init.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/input.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/monitor.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/window.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj.requires
+glfw/src/CMakeFiles/glfw.dir/requires: glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj.requires
 
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/requires
+.PHONY : glfw/src/CMakeFiles/glfw.dir/requires
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /d C:\OpenGLProjects\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/clean
+glfw/src/CMakeFiles/glfw.dir/clean:
+	cd /d C:\Ahab\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
+.PHONY : glfw/src/CMakeFiles/glfw.dir/clean
 
-C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\OpenGLProjects\fftwater C:\OpenGLProjects\glfw\src C:\OpenGLProjects\fftwater\bin C:\OpenGLProjects\glfw\src C:\OpenGLProjects\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake --color=$(COLOR)
-.PHONY : C:/OpenGLProjects/glfw/src/CMakeFiles/glfw.dir/depend
+glfw/src/CMakeFiles/glfw.dir/depend:
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Ahab C:\Ahab\glfw\src C:\Ahab C:\Ahab\glfw\src C:\Ahab\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake --color=$(COLOR)
+.PHONY : glfw/src/CMakeFiles/glfw.dir/depend
 

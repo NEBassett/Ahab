@@ -1,1 +1,1 @@
--IC:/OpenGLProjects/glfw/include -IC:/OpenGLProjects/glfw/src -IC:/OpenGLProjects/glfw/deps/mingw 
+-IC:/Ahab/glfw/include -IC:/Ahab/glfw/src -IC:/Ahab/glfw/deps/mingw 

@@ -46,6 +46,6 @@ void main()
     float prod = dot(dir,vel);
 
     //float equi = density*(w_i*(1 + 3*prod/c + 9*prod*prod/(2*c*c) - 3*dot(vel, vel)/(2*c*c)));
-    float equi = density * w_i + density * (w_i * ( 3 * prod / c + 9 * prod * prod / (c * c * 2) - 3 * dot(vel, vel) / (c * c * 2) ) );
+    float equi = max(density * w_i + density * (w_i * ( 3 * prod / c + 9 * prod * prod / (c * c * 2) - 3 * dot(vel, vel) / (c * c * 2) ) ), 0);
     imageStore(newnodes, ind, vec4(nodeval - (nodeval - equi)/tau));
 }

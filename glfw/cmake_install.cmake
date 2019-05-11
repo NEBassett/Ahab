@@ -1,8 +1,8 @@
-# Install script for directory: C:/OpenGLProjects/glfw
+# Install script for directory: C:/Ahab/glfw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/fftwater")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/lbm")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/OpenGLProjects/glfw/src/cmake_install.cmake")
+  include("C:/Ahab/glfw/src/cmake_install.cmake")
 
 endif()
 
