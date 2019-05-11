@@ -34,7 +34,7 @@ void main()
       macden = macden + imageLoad(nodes, ivec2(ind + vec2(0,i))).x;
     }
 
-    macvel = c*macvel/max(macden, 0.0001); + vec2(cos(time),sin(time))*0.8*tau*(1/(1 + length(vec2(200, 200) - gl_GlobalInvocationID.xy)))/max(macden, 0.0001);;
+    macvel = c*macvel/max(macden, 0.0001) + vec2(cos(time),sin(time))*0.8*tau*(1/(1 + length(vec2(200, 200) - gl_GlobalInvocationID.xy)))/max(macden, 0.0001);
 
     imageStore(macvels, ivec2(gl_GlobalInvocationID.xy), macvel.xyxy);
     imageStore(macdens, ivec2(gl_GlobalInvocationID.xy), macden.xxxx);
