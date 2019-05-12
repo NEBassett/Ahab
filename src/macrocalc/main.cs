@@ -40,11 +40,11 @@ void main()
       div = 1;
     }
 
-    macvel = c*macvel/div + abs(vec2(cos(time),sin(time)))*1.8*tau*(1/(1 + length(vec2(200, 200) - gl_GlobalInvocationID.xy)))/div;
+    macvel = c*macvel/div + abs(vec2(cos(time)*cos(time),sin(time)))*1.3*tau*(1/(1 + length(vec2(200, 200) - gl_GlobalInvocationID.xy)))/div;
 
-    if(length(macvel) > 13)
+    if(length(macvel) > 10)
     {
-      macvel = normalize(macvel) * (13);
+      macvel = normalize(macvel) * (10);
     }
 
     imageStore(macvels, ivec2(gl_GlobalInvocationID.xy), macvel.xyxy);
