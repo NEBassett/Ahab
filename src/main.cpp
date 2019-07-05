@@ -353,13 +353,16 @@ public:
 
 int main()
 {
-  glfwSetErrorCallback([](auto err, const auto* desc){ std::cout << "Error: " << desc << '\n'; });
+  try 
+  {
+     glfwSetErrorCallback([](auto err, const auto* desc){ std::cout << "Error: " << desc << '\n'; });
 
   // glfw init
   if(!glfwInit())
   {
-    std::cout << "glfw failed to initialize\n";
-    std::exit(1);
+    throw std::runtime_error(
+        "GLFW failed to initialize"
+    );
   }
 
   // context init
@@ -368,8 +371,9 @@ int main()
   auto window = glfwCreateWindow(640, 480, "Lattice Boltzmann Methods", NULL, NULL);
   if (!window)
   {
-    std::cout << "window/glcontext failed to initialize\n";
-    std::exit(1);
+    throw std::runtime_error(
+        "GLFW window creation failed"
+    );
   }
 
   glfwMakeContextCurrent(window);
@@ -378,8 +382,9 @@ int main()
   auto err = glewInit();
   if(GLEW_OK != err)
   {
-    std::cout << "glew failed to init: " << glewGetErrorString(err) << '\n';
-    std::exit(1);
+    throw std::runtime_error(
+        std::string("GLEW initialization failed with error: ") + std::string((const char*)(glewGetErrorString(err)))
+    );
   }
 
   // gl init
@@ -427,8 +432,7 @@ int main()
 
 
 
-  glfwSwapInterval(1);
-  while(!glfwWindowShouldClose(window))
+  glfwSwapInterval(1);em
   {
     auto oldT = time;
     time = glfwGetTime();
@@ -458,6 +462,10 @@ int main()
     glfwPollEvents();
   }
 
-  glfwTerminate();
+  glfwTerminate(); 
+  } catch(const std::exception& e){
+    std::cout << "main failed with " << e.what() << '\n';
+  }
+  
   return 0;
 }
